@@ -1,0 +1,71 @@
+
+.editGoal{
+  margin: 0 auto;
+  margin-top: 30vh;
+  background-color: white;
+  border: '2px solid #000';
+  width: 500px;
+  height: 300px;
+}
+
+.modalLabels{
+  margin-left: 40px;
+  margin-right: 10px;
+  font-size: 20px;;
+}
+
+.modalTextArea{
+  margin-top: 10px;
+  border-radius: 5px;
+  border: 1px solid black;  
+  width: 60%;
+}
+
+.editGoal h3{
+  text-align: center;
+  font-size:25px;
+  padding-top: 20px;
+}
+
+.modalButtons{
+  height: 20%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.modalButton{
+  font-size: 15px;
+  width: 30%;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-radius: 5px;
+  margin-top: 50px;
+}
+
+@media(max-width: 500px){
+  .editGoal{
+    width:100%;
+    height: 350px;
+  }
+
+  .editInputDivs{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .modalLabels{
+    margin-bottom: 5px;
+  }
+}
+
+@media(max-width: 300px){
+  .modalTextArea{
+    width: 95%;
+  }
+
+  .modalText{
+    width: 95%;
+  }
+}

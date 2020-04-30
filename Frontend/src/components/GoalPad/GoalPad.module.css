@@ -1,0 +1,302 @@
+.headAndOptions{
+  display: flex;
+  flex-direction: row;
+  width: 90%;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.padOptions{
+  display: flex;
+  margin-left: 10px;
+  justify-content: center;
+}
+
+.padOptions h3{
+  margin: 0 auto;
+  margin-left:15px;
+  padding-top: 5px;
+}
+
+.goalPageHeader{
+  text-align: center;
+  padding: 35px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.goalPageHeader a{
+  text-decoration: none;
+  color: rgb(59, 58, 58);
+  font-size: 70px;
+}
+
+.goalPadHead{
+  font-size: 35px;
+}
+
+.goalTypes{
+  height: 25px;
+  padding-bottom:0;
+  margin-top:45px;
+  margin-left: 7%;
+  text-align: center;
+  cursor: pointer;
+}
+
+.goalTypes:hover{
+  border-bottom: 2px solid black;
+  transition: all .2s;
+}
+
+.goalView{
+  color:#3D9970;
+  border-bottom: 2px solid #3D9970;
+}
+
+.goalView:hover{
+  border-bottom: 2px solid #3D9970;
+  transition: all .2s;
+}
+
+.padBackDiv{
+  box-sizing: border-box;
+  background-color: rgba(73, 194, 140, 0.685);
+  overflow: scroll;
+  min-height: 100vh;
+  height: auto;
+}
+
+.goalPadDiv{
+  box-sizing: border-box;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, .5);
+  background-color: rgb(240, 239, 239);
+  border-radius: 10px;
+  margin: 0 auto;
+  width: 90%;
+  height: inherit;
+  margin-bottom: 40px;
+  min-height: 500px;
+}
+
+.padItemDiv{
+  padding-top: 20px;
+  padding-bottom: 40px;
+  margin:0 auto;
+  width: 80%;
+}
+
+.padItems{
+  font-size: 25px;
+}
+
+.noProgress{
+  color: green;
+}
+
+.yellowProgress{
+  color: orange;
+}
+
+.redProgress{
+  color: red;
+}
+
+.dueDateP{
+  font-size: 13px;
+}
+
+.goalDescriptionBox{
+  display: flex;
+  flex-direction: column;
+}
+
+.newGoalButton{
+  background-color: rgba(73, 194, 140, 0.685);
+  color:white;
+  cursor: pointer;
+  border: 1px solid transparent;
+  border-radius: 5px;
+  padding: 2px 2px;
+  width: 100px;
+}
+
+.newGoalButton:hover{
+  background-color: rgba(73, 194, 140, 0.685);
+  font-size: 1.1rem;
+  width: 110px;
+}
+
+.goalButtons{
+  width: 500px;
+  display: flex;
+}
+
+.editButton{
+  font-size: 15px;
+  width: 60px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-radius: 5px;
+  margin-top: 5px;
+  margin-right: 10px;
+}
+
+.completeButton{
+  color:white;
+  font-size: 15px;
+  width: 100px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-radius: 5px;
+  margin-top: 5px;
+  margin-right: 10px;
+  background-color: #28b485;
+}
+
+.editGoal{
+  position: absolute;
+  background-color: white;
+  border: '2px solid #000';
+  top: 30%;
+  left: 30%;
+  width: 500px;
+  height: 300px;
+}
+
+.modalLabels{
+  margin-left: 40px;
+  margin-right: 10px;
+}
+
+.modalTextArea{
+  margin-top: 10px;
+  border-radius: 5px;
+  border: 1px solid black;  
+  width: 60%;
+}
+
+.editGoal h3{
+  text-align: center;
+}
+
+.modalButtons{
+  height: 20%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.modalButton{
+  font-size: 15px;
+  width: 30%;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-radius: 5px;
+  margin-top: 50px;
+}
+
+.notLoggedPadButtons{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.notLoggedPadButtons p{
+  font-size: 25px;
+  margin-left: 20px;
+  border: 1px black solid;
+  padding: 5px 5px;
+}  
+
+.notLoggedPadButtons p:hover{
+  color: rgba(0, 0, 0, 0.356);
+  border: 1px rgba(0, 0, 0, 0.356) solid;
+}  
+
+.notLoggedPadDiv{
+  text-align: center;
+  margin: 0 auto;
+  width: 60%;
+  border: 1px rgba(0, 0, 0, 0.37) solid;
+  border-radius: 8px;
+  background-color: white;
+}
+
+.notLoggedDivP{
+  font-size: 30px;
+  color:rgb(73, 194, 140);
+}
+
+a{
+  color: black;
+}
+
+button{
+  cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+@media(max-width: 400px){
+
+
+  .headAndOptions{
+    flex-direction: column;
+    margin: 0 auto;
+    width: 100%;
+    align-items: center;
+    text-align: center;
+    padding-bottom: 10px;
+  }
+
+  .padOptions h3{
+    margin-left: 0;
+    margin-right: 10px;
+  }
+
+  .goalPadDiv{
+    width: 100%;
+  }
+
+  .padItemDiv{
+    width:100%;
+  }
+
+  .goalContainer{
+    width: 100vw;
+  }
+
+  .dueDateP{
+    margin:0;
+    font-size: 13px;
+  }
+
+  .goalDescriptionBox{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .goalButtons{
+    width: 100%;
+    flex-wrap: wrap-reverse;
+  }
+
+  .editButton{
+    margin-right: 5px;
+  }
+
+  .completeButton{
+    margin: 0;
+  }
+
+  .notLoggedPadDiv{
+    width: 100%;
+  }
+
+}

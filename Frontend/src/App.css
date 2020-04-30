@@ -1,0 +1,25 @@
+input{ 
+ width:70%;
+ height:25px;
+ line-height:25px;
+ color:rgb(75, 75, 75);
+ background-color:#fff;
+ border:1px solid rgb(199, 199, 199);
+ border-radius:3px;
+ padding:3px;
+}
+
+
+
+.isLoading{
+  position: fixed;
+  z-index: 999;
+  height: 2em;
+  width: 10em;
+  overflow: visible;
+  margin: auto;
+  top: 0;
+  left: 300px;
+  bottom: 0;
+  right: 0;
+}

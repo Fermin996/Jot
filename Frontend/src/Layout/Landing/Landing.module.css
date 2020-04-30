@@ -1,0 +1,127 @@
+.landingPrimary{
+  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('../../img/jot-landing.jpg');
+  background-color: black;
+  background-size: cover;
+  background-position:bottom;
+  height:550px; 
+  text-align: center;
+}
+
+h2{
+  font-size: 3rem;
+}
+
+.landingPrimaryCard{
+  color: white;
+  padding-top: 70px;
+  margin: 0 auto;
+}
+
+.landingPrimaryCard p{
+  font-size: 2rem;
+  margin-bottom: 70px;
+}
+
+.landButton{
+  font-size: 2rem;
+  text-decoration: none;
+  color: #3D9970;
+  border: 1px solid transparent;
+  border-radius: 25px;
+  padding: 10px 15px;
+  background-color: white;
+  width:50px;
+  transition: all .4s;
+}
+
+.landButton:hover{
+  color: white;
+  background-color: #3D9970;
+  transition: all .2s;
+}
+
+.landingSecondary{
+  text-align: center;
+  display: flex;
+  margin: 40px 40px;
+}
+
+.secondaryCardText{
+  margin: 0 auto;
+  margin-top:20px;
+  text-align: center;
+  font-size: 25px;
+  width: 80%;
+}
+
+.landingTertiary{
+  color:white;
+  height: 450px;
+  background: linear-gradient( rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1) ), url('../../img/primary-tertiary.jpg');
+  background-position:center;
+  background-size: cover;
+  background-color:black;
+  text-align: center;
+}
+
+.landingTertiary h3{
+  padding-top: 60px;
+  font-size: 3rem;
+}
+
+.landingTertiary p{
+  line-height: 50px;
+  margin: 0 auto;
+  font-size: 2rem;
+  width: 50%;
+}
+
+b{
+  color: black;
+}
+
+
+
+
+
+
+
+
+
+@media (max-width: 600px){
+  h2{
+    width: 70%;
+    margin: 0 auto;
+  }
+
+  .landingPrimaryCard p{
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+
+  .landingSecondary{
+    flex-direction: column;
+  }
+
+  .secondaryCardText{
+    font-size:20px;
+  }
+
+  .landingSecondaryCard{
+    margin-bottom: 40px;
+  }
+
+  .landingTertiary h3{
+    padding-top: 40px;
+    font-size: 2.5rem;
+  }
+
+  .landingTertiary p{
+    width: 80%;
+    font-size: 1.6rem;
+    line-height: 40px;
+  }
+
+}

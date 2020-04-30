@@ -1,0 +1,110 @@
+a{
+  text-decoration: none;
+  color: black;
+}
+
+.signupHeader{
+  text-align: center;
+  padding: 35px;
+  margin: 0 auto;
+  font-size: 70px;
+}
+
+.signFont{
+  font-size: 33px;
+  color: rgb(85, 85, 85);
+}
+
+.formBackground{
+  box-sizing: border-box;
+  background-color: rgb(242, 240, 240);
+  height: 100vh;
+}
+
+.formContainer{
+  margin: 0 auto;
+  width: 40%;
+  border: 2px rgb(211, 210, 210) solid;
+  text-align: center;
+  background-color: rgb(250, 250, 250);
+  border-radius: 10px;
+  padding-bottom: 40px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, .5);
+}
+
+.inputDiv{
+  font-size: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+  color: rgb(96, 96, 96);
+}
+
+.submitButton{
+  font-size: 15px;
+  width: 70%;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-radius: 5px;
+  margin-top: 5px;
+}
+
+.invalidInput{
+  border:1px solid red;
+}
+
+.errorText{
+  color: red;
+  font-size: 15px;
+  height: 5%;
+  margin-bottom: -5px;
+  margin-top: 2px;
+}
+
+.isLoading{
+  position: fixed;
+  z-index: 999;
+  height: 2em;
+  width: 2em;
+  overflow: visible;
+  margin: auto;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+
+.loadBack{
+  position: fixed;
+  z-index: 998;
+  height: 100%;
+  overflow: visible;
+  margin: auto;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-color: rgb(242, 240, 240);
+}
+
+@media(max-width:700px){
+  .formContainer{
+    width: 70%;
+  }
+}
+
+@media(max-width: 400px){
+  .formContainer{
+    width: 100%;
+    padding-top: 10px;
+  }
+
+  input{
+    width:90%;
+  }
+
+  .signFont{
+    padding-bottom: 20px;
+  }
+}

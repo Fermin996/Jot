@@ -1,0 +1,87 @@
+.goalBackDiv{
+  box-sizing: border-box;
+  margin-top: 20px;
+}
+
+.goalPadDiv{
+  box-sizing: border-box;
+  background-color: rgb(228, 226, 226);
+  border-radius: 10px;
+  margin: 0 auto;
+  width: 80%;
+}
+
+.padItemDiv{
+  padding-top: 20px;
+  padding-bottom: 40px;
+  margin:0 auto;
+  width: 80%;
+}
+
+.datePicker{
+  border-radius: 5px;
+}
+
+.datesContainer{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.newGoalInput{
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  font-size: 25px;
+}
+
+.newGoalInput textarea{
+  border-radius: 5px;
+  border: 1px solid transparent;
+}
+
+.goalScope{
+  margin-top: 20px;
+  font-size: 20px;
+}
+
+.goalScope label{
+  margin-right: 10px;
+}
+
+.submitButton{
+  font-size: 15px;
+  width: 30%;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+
+.subFlex{
+  display: flex;
+  justify-content: space-around;
+}
+
+.errorText{
+  color: red;
+  font-size: 15px;
+}
+
+
+
+@media(max-width: 400px){
+
+  .goalBackDiv{
+    width: 100%;
+  }
+
+  .subFlex{
+    width:100%;
+    justify-content: space-around;
+  }
+
+  .submitButton{
+    width: 100%;
+  }
+}
